@@ -1,8 +1,5 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
+pub mod euler_001;
+pub mod euler_002;
+pub mod euler_003;
+pub mod euler_004;
+pub mod euler_005;
